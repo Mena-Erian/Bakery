@@ -1,0 +1,293 @@
+body {
+    font-family: "Alegreya", serif;
+    padding: 0;
+    margin: 0;
+}
+
+.cont {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.clear-fix {
+    clear: both;
+    /* display: table; */
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.menuobar {
+    height: 80px;
+    width: 35px;
+    position: fixed;
+    right: 0;
+    top: 33%;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-sizing: border-boxs;
+    padding: 5px 0 5px 5px;
+}
+
+.menuobar .contant {
+    margin: 5px 1px;
+    text-align: center;
+    font-size: large;
+}
+
+/* nav-bar */
+.nav-header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* height: 100px; */
+    padding: 0 20vh;
+}
+
+.nav-header .logo {
+    width: 20%;
+}
+
+.nav-header .logo img {
+    width: 100%;
+}
+
+.nav-header .sec-2 {
+    background-color: transparent;
+    text-align: center;
+}
+.nav-header .sec-2 ul {
+    display: inline-block;
+    margin: 0 auto 0;
+    text-align: center;
+}
+.nav-header .sec-2 li {
+    float: left;
+    list-style-type: none;
+    background-color: transparent;
+    padding-top: 15px;
+}
+.nav-header ul .special {
+    border-top: #8e7754 solid 3px;
+}
+.nav-header .sec-2 li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.5s;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-header .sec-2 li a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* header */
+
+.header {
+    background-image: url(../images/drew-coffman.jpg);
+    background-position: center;
+    height: 70vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.header .container {
+    /* background-color: aqua; */
+    position: relative;
+    top: 45%;
+    font-size: x-large;
+}
+
+/* section-1 */
+
+article.section-1 {
+    background-color: transparent;
+    width: 90%;
+    margin: 50px auto;
+}
+
+article.section-1 .sec-1 {
+    width: 45%;
+    background-color: blueviolet;
+    float: left;
+}
+
+article.section-1 .sec-1 img {
+    width: 100%;
+}
+
+article.section-1 .sec-2 {
+    width: 45%;
+    float: right;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+article.section-1 .sec-2 h2 {
+    color: rgb(48, 48, 48);
+    font-size: x-large;
+}
+article.section-1 .sec-2 p {
+    color: rgb(104, 104, 104);
+    font-size: large;
+}
+
+article.section-1 .sec-1 img {
+    display: block;
+}
+
+/* section-2 */
+
+article.section-2 {
+    padding: 10px 0;
+    background-color: #f8f8f8;
+    /* box-sizing: border-box; */
+    margin: 0;
+}
+
+article.section-2 .sec-2-header {
+    text-align: center;
+}
+
+article.section-2 .sec-2-header h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+article.section-2 p {
+    color: rgba(48, 48, 48, 0.7);
+    font-size: 17px;
+}
+
+article.section-2 .item {
+    width: 31%;
+    background-color: transparent;
+    float: left;
+    font-weight: 200;
+    margin: auto 11px;
+}
+
+/* section-3 */
+
+article.section-3 {
+    background-color: #8e7754;
+    color: rgba(255, 255, 255, 0.8);
+    overflow: auto;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+article.section-3 .item-1 {
+    width: 25%;
+    /* background-color: rgb(255, 0, 140); */
+    float: left;
+}
+article.section-3 .item-1 i {
+    font-size: x-large;
+}
+article.section-3 .item-1 p {
+    font-size: 52px;
+}
+
+article.section-3 .item-1 span {
+    font-size: large;
+}
+
+/* footer */
+/* footer parent-sec-1 */
+
+footer .sec-1 {
+    color: white;
+    background-color: #403d38;
+    padding: 10px 0;
+}
+footer .sec-1 .parent-sec-1 .item-2 {
+    width: 25%;
+    float: left;
+    /* clear it
+    background-color: gray;
+    border: 1px solid black;
+    box-sizing: border-box; */
+}
+footer .sec-1 .parent-sec-1 .item-2 p,
+footer .sec-1 .parent-sec-1 .item-2 ul {
+    color: rgb(150, 150, 150);
+    list-style-type: none;
+    padding-left: 5px;
+}
+footer .sec-1 .parent-sec-1 .item-2 ul li {
+    border-bottom: rgba(150, 150, 150, 0.2) solid 1px;
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+footer .sec-1 .parent-sec-1 .item-2 ul .border-none {
+    border-bottom: none;
+}
+footer .parent-sec-1 i::after {
+    content: " ";
+    margin-right: 10px;
+}
+
+/* footer parent-sec-2 */
+
+footer .sec-2 {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px;
+}
+
+footer .sec-2 p {
+    color: rgb(119, 119, 119);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer .sec-2 a {
+    color: rgb(150, 150, 150);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: x-large;
+    transition: all 0.3s;
+}
+
+footer .sec-2 a#face:hover {
+    background-color: rgba(58, 58, 190, 0.692);
+    color: white;
+}
+
+footer .sec-2 a#google:hover {
+    background-color: rgb(230, 33, 33);
+    color: white;
+}
+
+footer .sec-2 a#linkedin:hover {
+    background-color: #0275d8;
+    color: white;
+}
+
+footer .sec-2 a#twit:hover {
+    background-color: #0275d8;
+    color: white;
+}

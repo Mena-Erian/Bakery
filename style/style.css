@@ -1,0 +1,435 @@
+.clear-fix {
+    clear: both;
+}
+
+body {
+    margin: 0 0 auto;
+}
+* p {
+    color: rgb(150, 150, 150);
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+}
+h2 {
+    color: black;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+* a {
+    color: black;
+}
+.cont {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+/* menuobar */
+
+.menuobar {
+    height: 80px;
+    width: 35px;
+    position: fixed;
+    right: 0;
+    top: 33%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-sizing: border-boxs;
+    padding: 5px 0 5px 5px;
+}
+
+.menuobar .contant {
+    margin: 5px 1px;
+    text-align: center;
+    font-size: large;
+}
+
+/* nav-bar */
+.nav-header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* height: 100px; */
+    padding: 0 20vh;
+    z-index: 1;
+}
+
+.nav-header .logo {
+    width: 20%;
+}
+
+.nav-header .logo img {
+    width: 100%;
+}
+
+.nav-header .sec-2 {
+    background-color: transparent;
+    text-align: center;
+}
+.nav-header .sec-2 ul {
+    display: inline-block;
+    margin: 0 auto 0;
+    text-align: center;
+}
+.nav-header .sec-2 li {
+    float: left;
+    list-style-type: none;
+    background-color: transparent;
+    padding: 30px 0 0;
+}
+.nav-header ul .special {
+    border-top: #8e7754 solid 3px;
+}
+.nav-header ul li.special a {
+    color: black;
+}
+.nav-header .sec-2 li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+
+    font-size: 25px;
+    margin: 0 10px;
+    transition: color 0.3s;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-header .sec-2 li a:hover {
+    color: black;
+}
+
+/* header part */
+.header {
+    background-image: url(../images/drew-coffman.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 120vh;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header .container h1 {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 76px;
+}
+
+.header .cont-verticle-align-middle .container p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+/* header container */
+
+.header .container {
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    position: relative;
+    top: 40vh;
+}
+
+.header .container button {
+    border: 2px solid white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 20px 10px;
+    transition: all 0.4s;
+}
+
+.header .container button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header .container button:hover a {
+    color: rgb(34, 34, 34);
+}
+
+.header .container button.btn-1 {
+    border: 2px solid transparent;
+    background-color: #8e7754;
+}
+.header button.btn-2 {
+    border: 2px solid white;
+    background-color: transparent;
+}
+.header .container button:hover {
+    background-color: white;
+}
+/* =-------------------------- */
+
+/* section-1 */
+
+article.section-1 {
+    background-color: white;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+    padding: 40px 0;
+}
+
+article.section-1 .cont {
+    position: relative;
+}
+
+article.section-1 .sec-1 {
+    width: 45%;
+}
+article.section-1 .sec-1 img {
+    width: 100%;
+    display: block;
+}
+/* sec-2 */
+article.section-1 .sec-2 {
+    width: 45%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    line-height: 32px;
+}
+
+article.section-1 .sec-2 p {
+    font-size: 17px;
+}
+
+article.section-1 .sec-2 ul {
+    padding-left: 0;
+}
+article.section-1 .sec-2 ul span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    color: #8e7754;
+    border: solid rgba(150, 150, 150, 0.404) 0.4px;
+    position: relative;
+    vertical-align: middle;
+    margin: 10px 15px 10px 0;
+}
+article.section-1 .sec-2 ul span i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+}
+
+/* section-2 */
+
+article.section-2 {
+    background-color: #f8f8f8;
+    display: inline-block;
+    width: 100%;
+    padding: 40px 0;
+}
+article.section-2 .cont {
+    background-color: transparent;
+    position: relative;
+}
+
+article.section-2 .sec-1 {
+    width: 45%;
+    position: absolute;
+    top: 15%;
+}
+
+article.section-2 .sec-2 {
+    width: 45%;
+}
+
+article.section-2 .sec-2 img {
+    width: 100%;
+    display: block;
+}
+
+/* section-3 */
+
+article.section-3 {
+    background-color: transparent;
+    text-align: center;
+    overflow: auto;
+}
+
+article.section-3 .sec-1-header h2 {
+    margin: 40px auto 15px;
+}
+article.section-3 .sec-1-header p {
+    margin: 10px auto 50px;
+}
+/* section-3 sec-2 */
+
+article.section-3 .sec-2 {
+    width: 100%;
+    margin-top: 50px;
+}
+article.section-3 .sec-2 .item-3 {
+    width: 31%;
+    float: left;
+}
+article.section-3 .sec-2 .item-3 img {
+    width: 100%;
+    display: block;
+}
+
+article.section-3 .sec-2 .item-3 h3 {
+    font-size: 22px;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+}
+
+article.section-3 .sec-2 .middle-item {
+    margin-right: 42px;
+    margin-left: 42px;
+}
+/* section 4 */
+
+article.section-4 {
+    color: rgb(150, 150, 150);
+    background-color: #f8f8f8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-4 .cont {
+    background-color: #f8f8f8;
+}
+
+.section-4 .sec-1 {
+    width: 45%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.section-4 .sec-1 ul {
+    padding: 0;
+}
+
+.section-4 .sec-1 ul li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    font-size: medium;
+    color: white;
+    vertical-align: middle;
+    position: relative;
+    margin: 10px 15px 10px 0;
+}
+.section-4 .sec-1 ul i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-4 .sec-2 {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* footer */
+/* footer parent-sec-1 */
+
+footer .sec-1 {
+    color: white;
+    background-color: #403d38;
+    padding: 10px 0;
+}
+footer .sec-1 .parent-sec-1 .item-2 {
+    width: 25%;
+    float: left;
+}
+footer .sec-1 .parent-sec-1 .item-2 p,
+footer .sec-1 .parent-sec-1 .item-2 ul {
+    color: rgb(150, 150, 150);
+    list-style-type: none;
+    padding-left: 5px;
+}
+footer .sec-1 .parent-sec-1 .item-2 ul li {
+    border-bottom: rgba(150, 150, 150, 0.2) solid 1px;
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+footer .sec-1 .parent-sec-1 .item-2 ul .border-none {
+    border-bottom: none;
+}
+footer .parent-sec-1 i::after {
+    content: " ";
+    margin-right: 10px;
+}
+
+/* footer parent-sec-2 */
+
+footer .sec-2 {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px;
+}
+
+footer .sec-2 p {
+    color: rgb(119, 119, 119);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer .sec-2 a {
+    color: rgb(150, 150, 150);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: x-large;
+    transition: all 0.3s;
+}
+
+footer .sec-2 a#face:hover {
+    background-color: rgba(58, 58, 190, 0.692);
+    color: white;
+}
+
+footer .sec-2 a#google:hover {
+    background-color: rgb(230, 33, 33);
+    color: white;
+}
+
+footer .sec-2 a#linkedin:hover {
+    background-color: #0275d8;
+    color: white;
+}
+
+footer .sec-2 a#twit:hover {
+    background-color: #0275d8;
+    color: white;
+}
